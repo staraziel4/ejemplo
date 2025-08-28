@@ -14,5 +14,6 @@ class Libro implements IPublicable {
     public function getInfo(): void {
         echo "📖 Libro: {$this->titulo}\n";
         echo "Autor: {$this->autor->getNombre()} ({$this->autor->getEdad()} años, {$this->autor->getNacionalidad()})\n\n";
+        echo "hola";
     }
 }
